@@ -53,9 +53,7 @@ By default your skill will have the following environments:
 - staging
 - production
 
-What environment you're is determined in the ``config/env.js`` module using the following code:
-
-.. literalinclude:: ../samples/starterKit/config/env.js
+What environment you're is determined in the ``config/env.js`` module.
 
 ## skill
 
@@ -168,7 +166,9 @@ A gulp runner configured with a watch task that starts your express server and l
 
 The serverless framework is a tool that helps you manage your lambda applications, assuming you have your AWS credentials setup properly this starter kit defines the very minimum needed so you can deploy your skill to lambda with the following command:
 
-  $ sls deploy
+```
+$ sls deploy
+```
 
 ## Running the project
 ---------------------
